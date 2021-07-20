@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Source+Sans+Pro&display=swap');
+
+.Home{
+    width: fit-content;
+    padding: 2rem;
+    margin: 2rem auto;
+    /* border: 2px solid aliceblue; */
+}
+.Home-select{
+    background-color: #fff;    
+    width: 50vw;
+    height: 6vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.Home-input{
+    background-color: #fff;    
+    width: 50vw;
+    height: 6vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 22px;
+}
+.Home-btn{
+    cursor: pointer;
+    background-color: rgb(212, 0, 0);   
+    color: #fff; 
+    width: 50vw;
+    height: 6vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.Home-btn:hover{
+    background-color: rgb(248, 0, 0);
+}
+.Home-error{
+    text-align: center;
+    cursor: pointer;  
+    background-color: #fff;
+    border: 3px solid rgb(248, 0, 0);
+    color: rgb(248, 0, 0); 
+    width: 50vw;
+    height: 6vh;
+    outline: none;
+    border-radius: 10px;
+    margin: auto;
+    font-family: 'Prompt', sans-serif;
+    /* padding: 5px; */
+    font-weight: 600;
+    font-size: 22px;
+}
+.Result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Result-msg, .Result-score{
+    color: #fff;
+    margin: 20px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Result-btn{
+    cursor: pointer;
+    background-color: rgb(212, 0, 0);   
+    color: #fff; 
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+    .Home-btn, .Home-input, .Home-select {
+      font-size: 16px;
+    }
+  }
